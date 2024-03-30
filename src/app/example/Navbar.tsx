@@ -1,5 +1,5 @@
 "use client"
-import { ThemeContext } from "@/context/ThemeContext"
+import { ThemeContext } from "@/app/example/ThemeContext"
 import Link from "next/link"
 import { useContext } from "react"
 

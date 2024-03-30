@@ -20,15 +20,19 @@ const config: Config = {
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
-      "light", "dark", "cupcake",
+      "light", "dark",
       {
-        customTheme: {
-          "primary": "#a991f7",
-          "secondary": "#f6d860",
-          "accent": "#37cdbe",
-          "neutral": "#3d4451",
-          "base-100": "#ffffff",
-        }
+        mytheme: {
+          "primary": "#04009A",
+          "secondary": "#77ACF1",
+          "accent": "#3EDBF0",
+          "neutral": "#C0FEFC",
+          "base-100": "#f8ffff",
+          "info": "#009eff",
+          "success": "#00c66d",
+          "warning": "#a27c00",
+          "error": "#ff3e66",
+        },
       },
     ], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
     darkTheme: "dark", // name of one of the included themes for dark mode

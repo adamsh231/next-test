@@ -14,6 +14,19 @@ export default function Home() {
 
       <button className="btn mb-16 btn-primary" onClick={handleClick}>Button {count}</button>
 
+      <div>
+        <div className="badge">default</div>
+        <div className="badge badge-neutral">neutral</div>
+        <div className="badge badge-primary">primary</div>
+        <div className="badge badge-secondary">secondary</div>
+        <div className="badge badge-accent">accent</div>
+        <div className="badge badge-info">info</div>
+        <div className="badge badge-warning">warning</div>
+        <div className="badge badge-success">success</div>
+        <div className="badge badge-error">error</div>
+        <div className="badge badge-base-100">base-100</div>
+      </div>
+
       <div className="overflow-x-auto">
         <table className="table">
           {/* head */}

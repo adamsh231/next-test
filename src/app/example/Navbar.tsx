@@ -22,7 +22,7 @@ export default function Navbar() {
                 <div className="flex gap-5">
                     <div className="flex items-center">
                         <div onClick={toggleTheme} className="container w-12 h-6 rounded-full bg-slate-300 flex items-center cursor-pointer">
-                            <div className={`container w-5 h-5 ml-1 bg-white rounded-full ${toggle ? 'translate-x-5' : ''} transition-all`}></div>
+                            <div className={`container w-5 h-5 ml-1 rounded-full ${toggle ? 'translate-x-5 bg-warning' : 'bg-white'} transition-all`}></div>
                         </div>
                     </div>
                     <button className="btn btn-secondary" onClick={() => changeTheme("light")}>Light</button>
